@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body > main{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: center;
+}
+.body-container{
+    align-items: center;
+    justify-content: center;
+}
+.heading-container{
+    text-align: center;
+    font-size: 22px;
+}
+.input-container{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+.input-container > input{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.btn-container{
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-container > button{
+    padding: 12px 28px;
+    border-radius: 15px;
+    color: #000000;
+    border: 3px #008CBA solid;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-container > button{
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #008CBA;
+}
+.list-container{
+    padding-top: 25px;
+}
+.list-contain{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.check-contain{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.delBtn-contain{
+    margin-left: 20px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #000000;
+    border: 3px red solid;
+    background-color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.delBtn-contain:hover{
+    background-color: white;
+}
+
